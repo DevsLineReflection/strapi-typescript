@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employees",
+  "info": {
+    "singularName": "employee",
+    "pluralName": "employees",
+    "displayName": "employees",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "salary": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "slugs": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
