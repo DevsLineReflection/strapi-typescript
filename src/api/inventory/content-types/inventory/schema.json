@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inventory",
+  "info": {
+    "singularName": "inventory",
+    "pluralName": "inventories",
+    "displayName": "inventory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  
+  "attributes": {
+    "noofproducts": {
+      "type": "integer"
+    },
+    "productname": {
+      "type": "text"
+    }
+    
+  }
+}
